@@ -1,5 +1,13 @@
 # FIFA World Cup 2022 prediction with Python
 
+[![Python Versions](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
+<div align="center">
+	<img src="Images/Fifa logo.png">
+</div>
+
+
 ## Overview
 
 This project aims to simulate the progression of a soccer tournament, starting from the round of 16 to the final, and predict the outcomes of each match using historical data and linear regression models. The project involves data preparation, analysis, and modeling to achieve accurate predictions of match results.
@@ -48,6 +56,10 @@ The core of the project involved building and training predictive models to simu
 3.  **Cross-validation**: We implemented a cross-validation function to evaluate the model's performance across different samples of the data. This ensured that the model's predictions were reliable and generalizable.
 
 4. **Simulation**: Using the trained models, we simulated the progression of the tournament from the round of 16 to the final. The results of each match were predicted, and the winners advanced to the next round until the champion was determined.
+
+<div align="center">
+	<img src="Images/Prediction bracket.png">
+</div>
 
 ## Conclusion
 
